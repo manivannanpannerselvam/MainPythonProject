@@ -10,11 +10,11 @@
     <packaging>jar</packaging>
     <name>TestAutomationPlatforms</name>
 
-    <url>https://github.com/manivannanpannerselvam/cucumber-automation-framework</url>
+    <url>https://github.com/manivannanpannerselvam/MainPythonProject</url>
 
     <organization>
         <name>Internal Automation</name>
-        <url>https://github.com/manivannanpannerselvam</url>
+        <url>https://github.com/manivannanpannerselvam/MainPythonProject</url>
     </organization>
 
     <build>
