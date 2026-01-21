@@ -12,20 +12,19 @@
 
     <url>https://github.com/manivannanpannerselvam/MainPythonProject</url>
 
-    <organization>
-        <name>Internal Automation</name>
-        <url>https://github.com/manivannanpannerselvam/MainPythonProject</url>
-    </organization>
+<!--    <organization>-->
+<!--        <name>Internal Automation</name>-->
+<!--        <url>https://github.com/manivannanpannerselvam/MainPythonProject</url>-->
+<!--    </organization>-->
 
-    <developers>
-        <developer>
-            <name>manivannanpanneerselvam</name>
-            <email>manipinnai238@gmail.com</email>
-            <organization>MainPythonProject</organization>
-            <organizationUrl>https://github.com/manivannanpannerselvam/MainPythonProject</organizationUrl>
-            <timezone>UTC+08:00</timezone>
-        </developer>
-    </developers>
+<!--    <developers>-->
+<!--        <developer>-->
+<!--            <name>manivannanpanneerselvam</name>-->
+<!--            <email>manipinnai238@gmail.com</email>-->
+<!--            <organization>MainPythonProject</organization>-->
+<!--            <organizationUrl>https://github.com/manivannanpannerselvam/MainPythonProject</organizationUrl>-->
+<!--        </developer>-->
+<!--    </developers>-->
 
     <distributionManagement>
         <repository>
