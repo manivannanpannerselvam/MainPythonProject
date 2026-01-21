@@ -1,0 +1,15 @@
+com/prod/tab/filehandling/JsonReaderTest.class
+com/prod/tab/appium/AppiumCommandsTest.class
+com/prod/tab/api/GraphQlApiTest.class
+com/prod/tab/api/RestAPIMethodsTest.class
+com/prod/tab/filehandling/CsvUtilsTest.class
+com/prod/tab/reporting/TapReportingTest.class
+com/prod/tab/database/DataBaseMethodsTest.class
+com/prod/tab/email/TapEmailTest.class
+com/prod/tab/config/DateTimeUtilTest.class
+com/prod/tab/config/ConfigvariableTest.class
+com/prod/tab/filehandling/FileReaderTest.class
+com/prod/tab/filehandling/XmlUtilTest.class
+com/prod/tab/filehandling/ZipFolderTest.class
+com/prod/tab/driver/TapDriverTest.class
+com/prod/tab/filehandling/PDFFileUtilTest.class

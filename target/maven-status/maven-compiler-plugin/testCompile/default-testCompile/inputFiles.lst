@@ -1,0 +1,17 @@
+/Users/manivannanp/Downloads/TestAutomationPlatformMain-master/src/test/java/com/prod/tab/appium/AppiumCommandsTest.java
+/Users/manivannanp/Downloads/TestAutomationPlatformMain-master/src/test/java/com/prod/tab/api/GraphQlApiTest.java
+/Users/manivannanp/Downloads/TestAutomationPlatformMain-master/src/test/java/com/prod/tab/filehandling/PDFFileUtilTest.java
+/Users/manivannanp/Downloads/TestAutomationPlatformMain-master/src/test/java/com/prod/tab/database/DataBaseMethodsTest.java
+/Users/manivannanp/Downloads/TestAutomationPlatformMain-master/src/test/java/com/prod/tab/driver/TapDriverTest.java
+/Users/manivannanp/Downloads/TestAutomationPlatformMain-master/src/test/java/com/prod/tab/filehandling/FileReaderTest.java
+/Users/manivannanp/Downloads/TestAutomationPlatformMain-master/src/test/java/com/prod/tab/filehandling/ZipFolderTest.java
+/Users/manivannanp/Downloads/TestAutomationPlatformMain-master/src/test/java/com/prod/tab/api/RestAPIMethodsTest.java
+/Users/manivannanp/Downloads/TestAutomationPlatformMain-master/src/test/java/com/prod/tab/filehandling/CsvUtilsTest.java
+/Users/manivannanp/Downloads/TestAutomationPlatformMain-master/src/test/java/com/prod/tab/selenium/SeleniumBaseTest.java
+/Users/manivannanp/Downloads/TestAutomationPlatformMain-master/src/test/java/com/prod/tab/api/WebSocketClientTest.java
+/Users/manivannanp/Downloads/TestAutomationPlatformMain-master/src/test/java/com/prod/tab/filehandling/JsonReaderTest.java
+/Users/manivannanp/Downloads/TestAutomationPlatformMain-master/src/test/java/com/prod/tab/config/ConfigvariableTest.java
+/Users/manivannanp/Downloads/TestAutomationPlatformMain-master/src/test/java/com/prod/tab/email/TapEmailTest.java
+/Users/manivannanp/Downloads/TestAutomationPlatformMain-master/src/test/java/com/prod/tab/reporting/TapReportingTest.java
+/Users/manivannanp/Downloads/TestAutomationPlatformMain-master/src/test/java/com/prod/tab/filehandling/XmlUtilTest.java
+/Users/manivannanp/Downloads/TestAutomationPlatformMain-master/src/test/java/com/prod/tab/config/DateTimeUtilTest.java

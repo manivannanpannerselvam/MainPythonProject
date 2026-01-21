@@ -1,0 +1,14 @@
+query decodeToken($jwttoken: String){
+
+	decodeToken(decodeJWTPayload:{
+    jwt:$jwttoken
+  }) {
+	  response
+    data{
+      sub
+      givenName
+      mail
+      roles
+    }
+	}
+}

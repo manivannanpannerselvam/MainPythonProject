@@ -1,0 +1,14 @@
+{
+	decodeToken(decodeJWTPayload:{
+    jwt:"Test"
+  }) {
+	  response
+    data{
+      iss
+      sub
+      givenName
+      mail
+      roles
+    }
+	}
+}

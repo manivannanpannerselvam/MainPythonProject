@@ -1,0 +1,713 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2002051011,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHook.initializeFramework()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should be able to login on app with correct credentials and initial set up should be shown",
+        "description": "",
+        "id": "verify-login-functionality-on-pulse-health-&-wealth-app;user-should-be-able-to-login-on-app-with-correct-credentials-and-initial-set-up-should-be-shown",
+        "after": [
+          {
+            "result": {
+              "duration": 59950,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHook.baseState()"
+            }
+          },
+          {
+            "result": {
+              "duration": 26707,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHook.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30392854547,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has pulse app",
+            "match": {
+              "location": "BaseSteps.userHasPulseAppGeneric()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27488756810,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters credentials",
+            "match": {
+              "location": "LoginSteps.userEntersCredentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "UserName",
+                  "${pulse.login.username}"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "Password",
+                  "${pulse.password}"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1556832799,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on signin button",
+            "match": {
+              "location": "LoginSteps.clickSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9382425748,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should be landed to \"Welcome\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.landingPageValidation(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2506449024,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should display \"Challenges\" as a carousel header on Welcome screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Challenges",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.verifyChallengesTxt(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2260238923,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should display \"Let your daily fitness activity improve your waistline\" on Challenges carousel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Let your daily fitness activity improve your waistline",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.verifyJoinChallengeCarouselTxt(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2775978115,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should display \"Join This Challenge\" button on Welcome screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Join This Challenge",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.verifyJoinChallengeBtn(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2253723610,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should display \"News & Updates\" as a carousel header on Welcome screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "News & Updates",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.verifyChallengesTxt(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9723051290,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should display \"Are you an existing Prudential customer\" on News carousel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Are you an existing Prudential customer",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.verifyJoinNewsCarouselTxt(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 68283,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHook.initializeFramework()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "User should be able to see a navigation bar at the bottom of screen and it must be persistent",
+        "description": "",
+        "id": "verify-login-functionality-on-pulse-health-&-wealth-app;user-should-be-able-to-see-a-navigation-bar-at-the-bottom-of-screen-and-it-must-be-persistent",
+        "after": [
+          {
+            "result": {
+              "duration": 37349,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHook.baseState()"
+            }
+          },
+          {
+            "result": {
+              "duration": 22308,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHook.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37668828504,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verifying the navigation bar present & persistent",
+            "match": {
+              "location": "LoginSteps.navBarPresence()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1273351149,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I sign out from pulse app",
+            "match": {
+              "location": "LoginSteps.signOutFromPulseApp()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 99557,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHook.initializeFramework()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User should be able to retrieve the new password using forget password",
+        "description": "",
+        "id": "verify-login-functionality-on-pulse-health-&-wealth-app;user-should-be-able-to-retrieve-the-new-password-using-forget-password",
+        "after": [
+          {
+            "result": {
+              "duration": 22520,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHook.baseState()"
+            }
+          },
+          {
+            "result": {
+              "duration": 23908,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHook.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 91192296,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I generate random number and assign to variable \"RANDOM_NUMBER\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RANDOM_NUMBER",
+                  "offset": 49
+                }
+              ],
+              "location": "GenericSteps.generateRandomNumberAndAssignToVariable(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 132559,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I assign value to following variables",
+            "match": {
+              "location": "GenericSteps.assignValueToVariables(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "USER_NAME",
+                  "taf-${RANDOM_NUMBER}@mailinator.com"
+                ],
+                "line": 24
+              },
+              {
+                "cells": [
+                  "USER_PASSWORD",
+                  "Pas$1234"
+                ],
+                "line": 25
+              },
+              {
+                "cells": [
+                  "DOB",
+                  "13-11-1984"
+                ],
+                "line": 26
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4523000683,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I register to pulse using API",
+            "match": {
+              "location": "PulseApiSteps.registerToPulseUsingAPI()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1936591,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I disconnect from webSocket",
+            "match": {
+              "location": "PulseApiSteps.disconnectFromWebSocket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16873800518,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User has pulse app",
+            "match": {
+              "location": "BaseSteps.userHasPulseAppGeneric()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14351405607,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User clicks on Forgot Password button",
+            "match": {
+              "location": "LoginSteps.clickForgotPasswordButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1860051650,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "enter the email to request the new password",
+            "match": {
+              "location": "LoginSteps.enterForgotPasswordEmail(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Email",
+                  "${USER_NAME}"
+                ],
+                "line": 32
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1334286916,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User clicks on Send button",
+            "match": {
+              "location": "LoginSteps.clickSendButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 161721450727,
+              "error_message": "com.pulse.app.helperclasses.PulseException: Not able to find element on screen [By.xpath: //android.widget.TextView[contains(@text,\"We���ve sent you an email containing a password reset code\")]]\n\tat com.pulse.app.helperclasses.GenericMethods.findElement(GenericMethods.java:161)\n\tat com.pulse.app.screens.PulseLoginScreen.getResetPasswordText(PulseLoginScreen.java:123)\n\tat com.pulse.app.stepdefinitions.mobilesteps.LoginSteps.verifyResetPasswordMsg(LoginSteps.java:91)\n\tat ✽.Then Verify message: \"We’ve sent you an email containing a password reset code\" for Reset Password(features/PulseLoginTest.feature:34)\n",
+              "status": "failed"
+            },
+            "line": 34,
+            "name": "Verify message: \"We’ve sent you an email containing a password reset code\" for Reset Password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "We’ve sent you an email containing a password reset code",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.verifyResetPasswordMsg(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "I wait for 20 sec",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 11
+                }
+              ],
+              "location": "BaseSteps.waitTime(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "I assign \"Pulse - Reset Password OTP\" to variable \"EMAIL_SUBJECT\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pulse - Reset Password OTP",
+                  "offset": 10
+                },
+                {
+                  "val": "EMAIL_SUBJECT",
+                  "offset": 51
+                }
+              ],
+              "location": "GenericSteps.assignValueToVariable(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "I read otp from email \"${USER_NAME}\" into variable \"EMAIL_OTP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "${USER_NAME}",
+                  "offset": 23
+                },
+                {
+                  "val": "EMAIL_OTP",
+                  "offset": 52
+                }
+              ],
+              "location": "PulseApiSteps.readOtpFromEmailAndSetVariable(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "I enter \"${EMAIL_OTP}\" reset code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "${EMAIL_OTP}",
+                  "offset": 9
+                }
+              ],
+              "location": "LoginSteps.enterResetOTP(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "I wait for 5 sec",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 11
+                }
+              ],
+              "location": "BaseSteps.waitTime(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "user should get the \"Password Reset Successfully\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password Reset Successfully",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.confirmationMessageValidation(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "User clicks on signin button",
+            "match": {
+              "location": "LoginSteps.clickSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "I disconnect from webSocket",
+            "match": {
+              "location": "PulseApiSteps.disconnectFromWebSocket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I assign \"Pulse - Reset Password\" to variable \"EMAIL_SUBJECT\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pulse - Reset Password",
+                  "offset": 10
+                },
+                {
+                  "val": "EMAIL_SUBJECT",
+                  "offset": 47
+                }
+              ],
+              "location": "GenericSteps.assignValueToVariable(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "I read temporary password from email \"${USER_NAME}\" into variable \"EMAIL_TEMP_PASSWORD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "${USER_NAME}",
+                  "offset": 38
+                },
+                {
+                  "val": "EMAIL_TEMP_PASSWORD",
+                  "offset": 67
+                }
+              ],
+              "location": "PulseApiSteps.readTempPassFromEmailAndSetVariable(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "I login into pulse app with below details",
+            "match": {
+              "location": "LoginSteps.loginToPulseApp(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "UserName",
+                  "${USER_NAME}"
+                ],
+                "line": 46
+              },
+              {
+                "cells": [
+                  "Password",
+                  "${EMAIL_TEMP_PASSWORD}"
+                ],
+                "line": 47
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "I disconnect from webSocket",
+            "match": {
+              "location": "PulseApiSteps.disconnectFromWebSocket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "I sign out from pulse app",
+            "match": {
+              "location": "LoginSteps.signOutFromPulseApp()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify login functionality on Pulse Health & Wealth app",
+    "description": "",
+    "id": "verify-login-functionality-on-pulse-health-&-wealth-app",
+    "keyword": "Feature",
+    "uri": "features/PulseLoginTest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login"
+      },
+      {
+        "line": 1,
+        "name": "@pulse_sg"
+      },
+      {
+        "line": 1,
+        "name": "@pulse_regression"
+      },
+      {
+        "line": 1,
+        "name": "@test29"
+      }
+    ]
+  }
+]
