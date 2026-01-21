@@ -17,6 +17,23 @@
         <url>https://github.com/manivannanpannerselvam/MainPythonProject</url>
     </organization>
 
+    <developers>
+        <developer>
+            <name>manivannanpanneerselvam</name>
+            <email>manipinnai238@gmail.com</email>
+            <organization>MainPythonProject</organization>
+            <organizationUrl>https://github.com/manivannanpannerselvam/MainPythonProject</organizationUrl>
+            <timezone>UTC+08:00</timezone>
+        </developer>
+    </developers>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/manivannanpannerselvam/MainPythonProject</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
@@ -496,17 +513,17 @@
 
     </dependencies>
 
-    <distributionManagement>
-        <repository>
-            <id>central</id>
-            <name>test-releases</name>
-            <url>https://artifactory-new.pru.intranet.asia:8443/artifactory/maven-pca-sg-pulse</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>test-snapshots</name>
-            <url>https://artifactory-new.pru.intranet.asia:8443/artifactory/maven-pca-sg-pulse</url>
-        </snapshotRepository>
-    </distributionManagement>
+<!--    <distributionManagement>-->
+<!--        <repository>-->
+<!--            <id>central</id>-->
+<!--            <name>test-releases</name>-->
+<!--            <url>https://artifactory-new.pru.intranet.asia:8443/artifactory/maven-pca-sg-pulse</url>-->
+<!--        </repository>-->
+<!--        <snapshotRepository>-->
+<!--            <id>snapshots</id>-->
+<!--            <name>test-snapshots</name>-->
+<!--            <url>https://artifactory-new.pru.intranet.asia:8443/artifactory/maven-pca-sg-pulse</url>-->
+<!--        </snapshotRepository>-->
+<!--    </distributionManagement>-->
 
 </project>
